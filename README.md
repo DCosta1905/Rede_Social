@@ -1,25 +1,30 @@
 # Projeto Rede Social
 
- Bem-vindo ao repositório do projeto de uma rede social desenvolvido com React, MongoDB, Express e Node. Este projeto inclui funcionalidades como autenticação de usuários, upload de fotos e suporte para modo escuro.
+Bem-vindo ao projeto de uma rede social utilizando React, Express, MongoDB e Node. Este projeto tem como objetivo criar uma aplicação de mídia social com funcionalidades básicas, incluindo autenticação de usuários e upload de fotos.
 
- ## Pré-requisitos
+## Tecnologias Utilizadas
 
-Certifique-se de ter as seguintes tecnologias instaladas em sua máquina:
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Banco de Dados:** MongoDB
 
--[Node.js](https://nodejs.org/en)
--[MongoDB]
 
-## Funcionalidades Principais
+## Funcionalidades
 
-### Autenticação de Usuários
-- Os usuários podem se cadastrar, fazer login e logout.
+1. **Autenticação de Usuários:** Os usuários podem se registrar, fazer login e logout. As rotas protegidas requerem autenticação.
 
-### Upload de Fotos
-- Os usuários podem fazer upload de fotos para compartilhar em suas postagens.
+2. **Feed de Posts:** Os usuários podem criar, visualizar e interagir com posts. Os posts podem incluir texto e imagens.
 
-### Modo Escuro
-- O aplicativo oferece suporte ao modo escuro para uma experiência visual agradável em ambientes com pouca luz.
+3. **Upload de Fotos:** Os usuários podem fazer upload de fotos para acompanhar seus posts.
+
+
+## Pré-requisitos
+
+Certifique-se de ter o Node.js e o MongoDB instalados em sua máquina antes de começar.
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT].
+Este projeto é licenciado sob a [MIT License](LICENSE).
