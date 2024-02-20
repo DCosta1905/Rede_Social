@@ -17,6 +17,8 @@ Bem-vindo ao projeto de uma rede social utilizando React, Express, MongoDB e Nod
 
 3. **Upload de Fotos:** Os usuários podem fazer upload de fotos para acompanhar seus posts.
 
+4. **Modo Escuro:** Oferece suporte a um elegante modo escuro para melhor experiência de usuário.
+
 
 ## Pré-requisitos
 
