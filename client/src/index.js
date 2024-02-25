@@ -13,7 +13,7 @@ import { getDefaultNormalizer } from '@testing-library/react';
 const persistConfig = { key: "root", storage, version: 1};
 const persistedReducer = persistReducer(persistConfig, authReducer);
 const store = configureStore({
-  reducer:persistReducer,
+  reducer:persistedReducer,
   middleware: (getDefaultMiddleware) =>
   getDefaultMiddleware({
     serializableCheck:{

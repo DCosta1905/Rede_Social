@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
-import styled from "@mui/system";
+import styled from "@emotion/styled";
 
 const FlexBetween = styled(Box)({
   display: "flex",
   justifyContent: "space-between",
-  alignItems: "center"
+  alignItems: "center",
 });
 
 export default FlexBetween;
